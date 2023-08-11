@@ -1,0 +1,58 @@
+.App {
+  text-align: center;
+  padding: 10px;
+}
+
+span{
+  margin-left: 4vw;
+  font-size: larger;
+  background: rgb(241, 156, 156);
+  border-radius: 20%;
+
+}
+p{
+  margin-left: 3vw;
+  color: red;
+}
+
+.cart-item{
+  color: black;
+  display: block;
+}
+
+
+.addItem{
+  margin-left: 2px;
+}
+
+.done{
+  color:green;
+}
+
+button{
+  margin-left: 5vw;
+}
+
+.box{
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 25vw;
+  border: 2px solid black;
+  background: rgb(247, 246, 246);
+  width : 50vw;
+  height : 30vh;
+  overflow: scroll;
+}
+
+.done,.pending{
+  width: 25vw;
+}
+
+#add{
+  margin: 2vw;
+}
+
+.nav-bar{
+  background: rgb(8, 8, 10);
+  margin-bottom: 5vw;
+}
